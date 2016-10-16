@@ -1,0 +1,17 @@
+extends layout
+block content
+    p.lead Paying £#{numeral(amount / 100).format('0,0[.]00')}
+    form(action='/result', method='POST')
+        input(type='hidden', name='amount', value=amount)
+        script.stripe-button(
+            src='https://checkout.stripe.com/checkout.js',
+            data-key=key,
+            data-amount=amount,
+            data-name='Your Company',
+            data-currency='GBP',
+            data-panel-label='Pay {{amount}}',
+            data-description='Your default message',
+            data-image='/images/stripe-logo.png',
+            data-locale='auto',
+            data-billing-address='false',
+            data-zip-code='true')

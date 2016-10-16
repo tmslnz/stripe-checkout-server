@@ -1,0 +1,23 @@
+html
+    head
+        title Site Name
+        meta(name="viewport", content="width=device-width, initial-scale=1")
+        link(rel="stylesheet", type="text/css", href="/css/lib/bootstrap.min.css")
+        link(rel="stylesheet", type="text/css", href="/css/lib/bootstrap-theme.min.css")
+        link(rel="stylesheet", type="text/css", href="/css/style.css")
+        script(src="/js/modernizr.js")
+        script(src="/js/util.js")
+        script(src="/js/util-numeric-input.js")
+    body
+        h1.logo.center-block.text-hide
+            a.block(href='/') Site Name
+        p Card Payment Page<br>by <a href="http://www.example.com/">www.example.com</a>
+        hr.v-space
+        block content
+        hr.v-space
+        footer
+            p: a(href='/terms') Terms &amp; Conditions
+            p Payments processed by <a href="https://stripe.com">Stripe</a>
+            div.center-block
+                a(href="https://stripe.com")
+                    img(src='/images/powered_by_stripe.png', width='119')

@@ -1,0 +1,8 @@
+extends layout
+block content
+    form(action='/pay', method='GET')
+        div.form-group
+            label
+                p Please enter amount to pay in £/GBP
+                input.form-control(id='amount', type='text', inputmode='numeric', required, pattern='\\d+(\\.\\d{2})?', name='amount', placeholder='(e.g. 1234 or 1234.56)')
+        button.btn.btn-default(type='submit') Submit

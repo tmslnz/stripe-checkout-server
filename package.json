@@ -1,0 +1,20 @@
+{
+  "name": "stripe-checkout-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "tmslnz <t@theworkers.net> (http://theworkers.net/)",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "multer": "^1.2.0",
+    "numeral": "^1.5.3",
+    "pug": "^2.0.0-beta6",
+    "request": "^2.75.0",
+    "stripe": "^4.11.0"
+  }
+}

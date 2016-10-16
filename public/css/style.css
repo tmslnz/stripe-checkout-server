@@ -1,0 +1,43 @@
+html, body {
+    text-align: center;
+}
+
+.logo {
+    background-image: url('/images/logo.png');
+    background-size: 162px 79px;
+    background-repeat: no-repeat;
+    width: 162px;
+    height: 79px;
+}
+
+.title {
+    display: none;
+}
+
+.v-space {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.block {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.terms {
+    text-align: left;
+    max-width: 40em;
+    padding: 0 2em;
+}
+
+/* Remove up/down arrows on numeric input */
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+#amount {
+    text-align: center;
+}
