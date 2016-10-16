@@ -2,6 +2,9 @@
 
 Simple server and website to accept Stripe payments.
 
+<img src="screenshots/flow.png" width="857" height="398" />
+
+
 # How to Use
 
 The applicaiton requires:
@@ -11,6 +14,16 @@ The applicaiton requires:
 - A Stripe account. D'oh.
 
 Setting up should only take about 10 to 15 min if all basic bits are in place.
+
+## Functionality
+
+Once the app is up and running, there are a couple of ways to use it.
+
+### 1. By letting your customer type the amount payable by themselves
+Just head to `https://www.example.com/` (home page), type a value and press Submit.
+
+### 2. By sending a link with a pre-set amount to be paid
+Send a link like `https://www.example.com/pay/1,234.99`. This will take your customer straight to the second step of the payment process.
 
 ## Configuration
 
