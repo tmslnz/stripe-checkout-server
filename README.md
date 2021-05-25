@@ -1,3 +1,7 @@
+# Obsoleted by <a href="https://stripe.com/gb/payments/payment-links">Stripe Payment Links</a> (2021)
+
+---
+
 # Super Simple Stripe Checkout
 
 Simple server and website to accept Stripe payments.
